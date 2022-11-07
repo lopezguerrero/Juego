@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Preguntas y respuestas</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="base-de.preguntas.js"></script>
+    <script defer src="index.js"></script> 
+
+</head>
+
+<body>
+
+<div id="tablero">
+
+    <div id="encabezado">
+        
+        <span id="pregunta">Aqui va la pregunta</span>
+        <img id="imagen"src="question.jpg" style="width: 150px;">
+    
+    </div>
+
+    <br>
+
+    <div class="opcion" id="opcion1" onclick="seleccionarOpcion(0)">Opcion 1</div>
+    <div class="opcion" id="opcion2" onclick="seleccionarOpcion(1)">Opcion 2</div>
+    <div class="opcion" id="opcion3" onclick="seleccionarOpcion(2)">Opcion 3</div>
+    <div class="opcion" id="opcion4" onclick="seleccionarOpcion(3)">Opcion 4</div>
+    
+</div>
+
+</body>
+
+</html>
